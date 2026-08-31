@@ -1,0 +1,57 @@
+USER INSTRUCTIONS
+0. Requirements / Downloads:
+------------------
+To RUN the application:
+Required:
+- A Windows computer.
+- Microsoft .NET Framework 4.7.2 or a newer compatible .NET Framework 4.x runtime.
+PS: Most Windows 10/11 computers already have a compatible .NET Framework installed. If Windows says that .NET Framework is missing, install the Microsoft .NET Framework 4.7.2 Runtime (or a newer compatible .NET Framework 4.x runtime) from Microsoft's official website.
+
+1. Starting the Application:
+------------------
+Application -> ElectricalNetworkProj.exe
+
+2. Viewing Bills
+------------------
+The existing bills are displayed
+- Bill ID:        Unique ID of a bill used to select it for operations.
+- Meter ID:       ID of the meter concerned by the bill (must be an integer)
+- Rate:           Price of a KWH in $
+- Issue Date:     date of issuance of the bill
+- Due Date:       date that the bill needs to be paid
+- Kilowatt Hours: energy spent in KWH
+- Amount Owed:    Value of the bill to be paid in $
+- Amount Paid:    Amount of the bill that has been paid in $
+Bills that are paid will be marked green.
+Bills that are not yet paid and past due will be marked red.
+
+3. Adding a Bill
+------------------
+1. Enter the bill's info in Bill Details
+2. Press the Add New Bill button
+
+4. Reading an Existing Bill
+------------------
+1. With the "Selected Bill" dropdown, select the ID of the bill you want to read.
+2. Press the Read Selected Bill button. The bill's info will be displayed in Bill Details.
+
+5. Updating amount paid of a bill
+------------------
+1. With the "Selected Bill" dropdown, select the Bill ID of the bill who's amount paid you want to update
+2. Write the new amount paid in the amount paid box
+3. Press the update payment button
+
+6. Delete bill
+------------------
+1. With the "Selected Bill" dropdown, select the Bill ID of the bill you want to delete.
+2. Press the Delete Selected Bill button
+
+7. Calculate the total amount owed of a meter:
+------------------
+1. With the "Selected Meter" dropdown, select the Meter ID of the meter you want to find the total amount owed of.
+2. Press the "Calculate Amount Owed" button. The amount owed will be displayed next to the outstanding balance box.
+
+8. Bill history of a meter:
+------------------
+1. With the "Selected Meter" dropdown, select the Meter ID of the meter you want to find the bill history of.
+2. Press the "Show bills of this meter" button. The bills display box will be sorted with the bills of this meter being first.
