@@ -22,8 +22,7 @@ Built using C# WinForms and SQLite.
 
 ## Technical Highlights
 
-- Migrated the original database layer from SQL Server to SQLite, removing machine-specific SQL Server dependencies.
-- Automatically initializes a local SQLite database on first launch.
+- Automatically initializes a local SQLite database on first launch instead of relying on machine-specific SQL Server dependencies.
 - Stores application data under the Windows user's Local AppData directory.
 - Uses parameterized SQLite commands for database operations.
 - Embeds the database schema directly into the application.
