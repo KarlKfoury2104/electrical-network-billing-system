@@ -6,10 +6,9 @@ Built using C# WinForms and SQLite.
 ## Features
 
 - Save, read, update and delete bills
-- Per customer total amount owed calculation
+- Per meter total amount owed calculation
 - Visually highlighting past-due bills and paid off bills.
-- Filter/prioritize bills of a specific customer.
-- Calculate outstanding balance per meter
+- Filter/prioritize bills of a specific meter.
 - Automatic local database initialization
 - SQLite local persistence
 
