@@ -1,6 +1,6 @@
 # Electrical Network Billing System
 
-Billing management feature of an accounting automating application for private generator comapny
+Billing management feature of an accounting automation application for private generator companies.
 Built using C# WinForms and SQLite.
 
 ## Features
