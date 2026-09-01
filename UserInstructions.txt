@@ -9,7 +9,7 @@ PS: Most Windows 10/11 computers already have a compatible .NET Framework instal
 
 1. Starting the Application:
 ------------------
-Application -> ElectricalNetworkProj.exe
+Download the latest version from releases, and run ElectricalNetworkProj.exe
 
 2. Viewing Bills
 ------------------
